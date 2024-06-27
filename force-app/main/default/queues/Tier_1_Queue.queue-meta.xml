@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Queue xmlns="http://soap.sforce.com/2006/04/metadata">
+    <doesSendEmailToMembers>false</doesSendEmailToMembers>
+    <email>tier1@example.com</email>
+    <name>Tier 1 Queue</name>
+    <queueMembers>
+        <users>
+            <user>bill.hzx4h3ctu4la.dbyiaepfwaqd.3vdwpdxdgam3@paulcoleman-230120-354.dxdo</user>
+            <user>cindy.foqthdcitv9k.ln2kjecmnbjg.0uh1kwtaikre@paulcoleman-230120-354.dxdo</user>
+            <user>customer.qulfmaf3gjwb.n4lt16fggaiy.jxrhspptdgff@paulcoleman-230120-354.dxdo</user>
+            <user>elliot.6eioscyn4zd1.dnxlqluu8slk.a2d3cdfa4jsp@paulcoleman-230120-354.dxdo</user>
+            <user>ely.n5hhq0lbfay4.d0og0igf3r2n.lfn0xlwopdxo@paulcoleman-230120-354.dxdo</user>
+            <user>partner.rlhrsdw5odis.dtswgzycande.hpxonplkqcps@paulcoleman-230120-354.dxdo</user>
+            <user>paulcoleman@paulcoleman-230120-354.dxdo</user>
+            <user>quinton.ogzpogqekczi.u19okvpe2yzj.phmte7ac38ej@paulcoleman-230120-354.dxdo</user>
+            <user>sue.9afdirlighit.kaozved7ijxz.y753s75f5hc7@paulcoleman-230120-354.dxdo</user>
+            <user>tim.eyq67hwdf6du.7iviwweibg1r.qijybhsqqzxv@paulcoleman-230120-354.dxdo</user>
+        </users>
+    </queueMembers>
+    <queueSobject>
+        <sobjectType>Case</sobjectType>
+    </queueSobject>
+</Queue>

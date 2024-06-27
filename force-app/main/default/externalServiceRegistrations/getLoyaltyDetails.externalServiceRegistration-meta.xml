@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ExternalServiceRegistration xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label>getLoyaltyDetails</label>
+    <namedCredentialReference>Loyalty</namedCredentialReference>
+    <operations>
+        <active>true</active>
+        <name>getloyalty</name>
+    </operations>
+    <schema>{
+  &quot;swagger&quot;: &quot;2.0&quot;,
+  &quot;info&quot;: {
+    &quot;version&quot;: &quot;1.0.0&quot;,
+    &quot;title&quot;: &quot;Salesforce External Services Integration&quot;,
+    &quot;description&quot;: &quot;This service will be consumed by salesforce external services to get loyalty points declaratively&quot;,
+    &quot;license&quot;: {
+      &quot;name&quot;: &quot;MIT&quot;,
+      &quot;url&quot;: &quot;https://opensource.org/licenses/MIT&quot;
+    }
+  },
+  &quot;host&quot;: &quot;bnb-loyalty-app.herokuapp.com&quot;,
+  &quot;basePath&quot;: &quot;/loyalty&quot;,
+  &quot;tags&quot;: [
+    {
+      &quot;name&quot;: &quot;Loyalty&quot;,
+      &quot;description&quot;: &quot;API for loyalty&quot;
+    }
+  ],
+  &quot;schemes&quot;: [
+    &quot;https&quot;
+  ],
+  &quot;consumes&quot;: [
+    &quot;application/json&quot;
+  ],
+  &quot;produces&quot;: [
+    &quot;application/json&quot;
+  ],
+  &quot;paths&quot;: {
+    &quot;/loyalties/{id_card__c}&quot;: {
+      &quot;get&quot;: {
+        &quot;operationId&quot;:&quot;getLoyalty&quot;,
+        &quot;summary&quot;:&quot;Retrieves loyalty details&quot;,
+        &quot;description&quot;: &quot;Retrieves loyalty details with specific id&quot;,
+        &quot;consumes&quot;:[
+          &quot;text/plain&quot;
+        ],
+        &quot;produces&quot;:[
+          &quot;application/json&quot;
+        ],
+        &quot;parameters&quot;: [
+          {
+            &quot;name&quot;: &quot;id_card__c&quot;,
+            &quot;in&quot;: &quot;path&quot;,
+            &quot;description&quot;: &quot;return details for the loyalty id&quot;,
+            &quot;required&quot;: true,
+            &quot;type&quot;: &quot;string&quot;
+          }
+
+        ],
+        &quot;responses&quot;: {
+          &quot;200&quot;: {
+            &quot;description&quot;: &quot;Loyalty user found&quot;
+          },
+          &quot;400&quot; : {
+            &quot;description&quot;: &quot;Invalid Id supplied&quot;
+          },
+          &quot;404&quot; : {
+            &quot;description&quot;: &quot;Loyalty user not found&quot;
+          }
+        }
+      }
+    }
+
+  }
+}</schema>
+    <schemaType>OpenApi</schemaType>
+    <serviceBinding>{&quot;host&quot;:&quot;bnb-loyalty-app.herokuapp.com&quot;,&quot;basePath&quot;:&quot;/loyalty&quot;,&quot;allowedSchemes&quot;:[&quot;HTTPS&quot;],&quot;requestMediaTypes&quot;:[&quot;application/json&quot;],&quot;responseMediaTypes&quot;:[&quot;application/json&quot;],&quot;compatibleMediaTypes&quot;:{}}</serviceBinding>
+    <status>Complete</status>
+    <systemVersion>2</systemVersion>
+</ExternalServiceRegistration>

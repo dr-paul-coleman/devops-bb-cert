@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DashboardFolder xmlns="http://soap.sforce.com/2006/04/metadata">
+    <folderShares>
+        <accessLevel>Manage</accessLevel>
+        <sharedTo>asarkar.3rxvhfmmaxhs@paulcoleman-230120-354.dxdo</sharedTo>
+        <sharedToType>User</sharedToType>
+    </folderShares>
+    <folderShares>
+        <accessLevel>Manage</accessLevel>
+        <sharedTo>greg.s18qra3btdqz@paulcoleman-230120-354.dxdo</sharedTo>
+        <sharedToType>User</sharedToType>
+    </folderShares>
+    <folderShares>
+        <accessLevel>Manage</accessLevel>
+        <sharedTo>kthompson.ivozgncn47sw@paulcoleman-230120-354.dxdo</sharedTo>
+        <sharedToType>User</sharedToType>
+    </folderShares>
+    <folderShares>
+        <accessLevel>Manage</accessLevel>
+        <sharedTo>mrose.hlk1e3b2olld@paulcoleman-230120-354.dxdo</sharedTo>
+        <sharedToType>User</sharedToType>
+    </folderShares>
+    <folderShares>
+        <accessLevel>Manage</accessLevel>
+        <sharedTo>msmith.wlhbfjgbsdta@paulcoleman-230120-354.dxdo</sharedTo>
+        <sharedToType>User</sharedToType>
+    </folderShares>
+    <folderShares>
+        <accessLevel>Manage</accessLevel>
+        <sharedTo>paulcoleman@paulcoleman-230120-354.dxdo</sharedTo>
+        <sharedToType>User</sharedToType>
+    </folderShares>
+    <folderShares>
+        <accessLevel>Manage</accessLevel>
+        <sharedTo>thedges.jrqzazckllf4@paulcoleman-230120-354.dxdo</sharedTo>
+        <sharedToType>User</sharedToType>
+    </folderShares>
+    <name>PRM Dashboards</name>
+</DashboardFolder>

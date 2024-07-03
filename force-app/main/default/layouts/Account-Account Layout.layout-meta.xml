@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Layout xmlns="http://soap.sforce.com/2006/04/metadata">
-    <excludeButtons>DataDotComClean</excludeButtons>
     <excludeButtons>Submit</excludeButtons>
     <feedLayout>
         <autocollapsePublisher>true</autocollapsePublisher>
@@ -62,6 +61,10 @@
             <layoutItems>
                 <behavior>Edit</behavior>
                 <field>AccountId__c</field>
+            </layoutItems>
+            <layoutItems>
+                <behavior>Edit</behavior>
+                <field>NewCustomField__c</field>
             </layoutItems>
         </layoutColumns>
         <layoutColumns>
@@ -395,12 +398,6 @@
             <quickActionName>SendEmail</quickActionName>
         </quickActionListItems>
     </quickActionList>
-    <relatedLists>
-        <fields>subject__c</fields>
-        <fields>account_id__c</fields>
-        <fields>who_id__c</fields>
-        <relatedList>Archived_Activities__x.account_id__c</relatedList>
-    </relatedLists>
     <relatedLists>
         <fields>CONTACT.FULL_NAME</fields>
         <fields>CONTACT.ACCOUNT_NAME</fields>

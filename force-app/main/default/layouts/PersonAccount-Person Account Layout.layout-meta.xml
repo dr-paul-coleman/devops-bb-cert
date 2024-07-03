@@ -70,6 +70,10 @@
                 <behavior>Edit</behavior>
                 <field>ContactId__pc</field>
             </layoutItems>
+            <layoutItems>
+                <behavior>Edit</behavior>
+                <field>NewCustomField__c</field>
+            </layoutItems>
         </layoutColumns>
         <layoutColumns>
             <layoutItems>
